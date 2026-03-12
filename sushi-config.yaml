@@ -1,5 +1,5 @@
 
-id: fhir.org.nz.ig.base
+id: fhir.org.nz.ig.base.test
 #id: hl7.fhir.nz.base
 ### experimental!!!  changing the canonical url to match the 
 # this is the original   canonical: http://fhir.org.nz/ig/base
