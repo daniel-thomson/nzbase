@@ -38,7 +38,7 @@ Alias: $messagingAddress = http://hl7.org.nz/fhir/StructureDefinition/messaging-
 Alias: $nzResidency = http://hl7.org.nz/fhir/StructureDefinition/nz-residency
 
 //===============   Aliases for ValueSets  ===============
-Alias: $pho-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/pho-code
+
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 
 Alias: $dhb-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code
@@ -79,7 +79,6 @@ Alias: $acc-occupation-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/a
 
 //================  Aliases for CodeSystems  ==============
 Alias: $dhb-code-cs = https://standards.digital.health.nz/ns/dhb-code
-Alias: $pho-code-cs = https://standards.digital.health.nz/ns/pho-code
 Alias: $domicile-code-cs = https://standards.digital.health.nz/ns/domicile-code
 Alias: $funded-programme-cs = https://standards.digital.health.nz/ns/funded-programme-code
 Alias: $information-source-cs = https://standards.digital.health.nz/ns/information-source-code

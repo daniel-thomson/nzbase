@@ -28,7 +28,7 @@ Description: "Primary Healthcare Organisation associated with a General Practice
 * ^context[2].expression = "Patient"
 
 * value[x] only CodeableConcept
-* value[x] from $pho-code-vs (extensible)
+* value[x] from https://nzhts.digital.health.nz/fhir/ValueSet/pho-code (extensible)
 * value[x] ^label = "pho Code"
 * value[x] ^short = "NZ Primary Healthcare Organisations"
 * value[x] ^definition = "NZ Primary Healthcare Organisations as defined in the NZ Health Provider Index Listing published by the NZ Ministry of Health each month."
@@ -36,6 +36,6 @@ Description: "Primary Healthcare Organisation associated with a General Practice
 
 * value[x] ^example[0].label = "Procare Networks Ltd"
 * value[x] ^example[0].valueCodeableConcept.coding[0].version = "1.0"
-* value[x] ^example[0].valueCodeableConcept.coding[0] = $pho-code-cs#G05533-K "Procare Networks Limited"
+* value[x] ^example[0].valueCodeableConcept.coding[0] = https://standards.digital.health.nz/ns/pho-code#G05533-K "Procare Networks Limited"
 * value[x] ^isModifier = false
 * value[x] ^binding.description = "NZ HPI-ORG Values for PHOs"
